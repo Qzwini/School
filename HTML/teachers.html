@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodeIT Absences</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../JS/javaScript.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="top_navbar">
+            <div class="logo">
+                <a href="#">
+
+                    <span class="icon">
+                        <span> تسجسل خروج </span>
+                        <i class="fas fa-sign-out-alt"></i></span>
+
+                </a>
+            </div>
+            <div class="top_menu">
+
+                <div class="home_link">
+
+                    <a href="./Not.html">
+
+                        <span class="icon"><i class="fas fa-bell"></i></span>
+                    </a>
+
+                </div>
+
+
+                <div class="right_info">
+                    <div class="icon_wrap">
+                        <a href="../index.html" style="color: cornsilk">
+                            <div class="icon">
+                                <span> الرئيسية </span>
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_body">
+
+            <div class="sidebar_menu">
+                <div class="inner__sidebar_menu">
+
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="../HTML/Student.html">
+                                <span class="list"> الطلاب </span>
+                                <span class="icon">
+                                    <i class="far fa-id-card"></i></span>
+                                <!-- user-graduate -->
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./teachers.html" class="active">
+                                <span class="list"> الاساتذة </span>
+                                <span class="icon"><i class="fas fa-user-tie"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Degrees.html">
+                                <span class="list"> الدرجات </span>
+                                <span class="icon"><i class="fas fa-chart-pie"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Classes.html">
+                                <span class="list"> الصفوف </span>
+                                <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Absences.html">
+                                <span class="list"> الغيابات </span>
+                                <span class="icon"><i class="fas fa-user-alt-slash"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./library.html">
+                                <span class="list"> المكتبة </span>
+                                <span class="icon"><i class="fas fa-book"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Paying.html">
+                                <span class="list"> الدفع </span>
+                                <span class="icon"><i class="fas fa-money-bill-alt"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./Activities.html">
+                                <span class="list"> النشاطات </span>
+                                <span class="icon"><i class="fas fa-chart-line"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./News.html">
+                                <span class="list"> الاخبار </span>
+                                <span class="icon"><i class="fas fa-newspaper"></i></span>
+
+                            </a>
+                        </li>
+                        <li style="padding-top: 125px;">
+                            <a href="#">
+                                <span class="list"> من نحن </span>
+                                <span class="icon"><i class="fas fa-users-cog"></i></span>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <div class="inner_hamburger">
+                            <span class="arrow">
+                                <i class="fas fa-long-arrow-alt-left"></i>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="item_wrap">
+
+
+
+                    <div style="width: 850px;justify-content: center;">
+                        <div class="item">
+
+                            <form style="width: 1100px;">
+                                <div class="row">
+
+                                    <div class="col"
+                                        style="margin-left: 0px !important;text-align-last: right !important;">
+                                        <input style="text-align: right;" type="text" class="form-control"
+                                            placeholder=" التخصص ">
+                                    </div>
+                                    <div class="col"
+                                        style="margin-left: 0px !important;text-align-last: right !important; ">
+                                        <input style="text-align: right;" type="text" class="form-control"
+                                            placeholder=" أسم الاستاذ ">
+                                    </div>
+
+                                    <div class="col-right">
+                                        <button type="button" class="btn btn-primary"
+                                            style="margin-right: 300px !important ">اضافة</button>
+                                    </div>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                        <table class="table" style="margin-top: 80px">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col"> عدد الصفوف </th>
+                                    <th scope="col"> عدد المراحل </th>
+                                    <th scope="col"> التخصص </th>
+                                    <th scope="col"> أسم الاستاذ </th>
+                                    <th scope="col">#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="normal">
+                                    <td> 2 </td>
+                                    <td> 2 </td>
+                                    <td> Front End </td>
+                                    <td> علي عقيل </td>
+                                    <th scope="row">1</th>
+                                </tr>
+                                <tr class="normal">
+                                    <td> 3 </td>
+                                    <td> 1 </td>
+                                    <td> Android Studio </td>
+                                    <td> سليمان احمد </td>
+                                    <th scope="row">2</th>
+                                </tr>
+                                <tr class="normal">
+                                    <td> 12 </td>
+                                    <td> 6 </td>
+                                    <td> Database </td>
+                                    <td> رامي مالك </td>
+                                    <th scope="row">3</th>
+                                </tr>
+                                <tr class="normal">
+                                    <td> 4 </td>
+                                    <td> 2 </td>
+                                    <td> Physics </td>
+                                    <td> محمد وليد </td>
+                                    <th scope="row">4</th>
+                                </tr>
+                                <tr class="normal">
+                                    <td> 6 </td>
+                                    <td> 4 </td>
+                                    <td> Scince </td>
+                                    <td> عبدالعزيز </td>
+                                    <th scope="row">5</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- JQuery and bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
