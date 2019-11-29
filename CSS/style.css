@@ -287,3 +287,36 @@ body {
   border-radius: 100px !important;
   margin-left: 30px !important;
 }
+
+
+#mT15px {
+  margin-top: 15px;
+}
+
+#lstN {
+  list-style-type: none !important;
+}
+
+#pT75px{ 
+  padding-top:62px !important;
+}
+
+#w400h400px {
+  width: 400px;height: 400px;
+}
+
+#mT150taR {
+  margin-top: 150px ;text-align: right;
+}
+
+#w400px {
+  width: 400px;
+}
+
+#w25 {
+  width: 25%;
+}
+
+#w70 {
+  width: 70%;
+}
