@@ -12,8 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../JS/javaScript.js"></script>
     <style>
-        td,
-        th {
+        td,th {
             text-align: center;
         }
     </style>
@@ -48,7 +47,7 @@
 
                 <div class="right_info">
                     <div class="icon_wrap">
-                        <a href="../index.html" style="color: cornsilk">
+                        <a href="../index.html" id="ACBG">
                             <div class="icon">
                                 <span> الرئيسية </span>
                                 <i class="fas fa-home"></i>
@@ -65,7 +64,7 @@
             <div class="sidebar_menu">
                 <div class="inner__sidebar_menu">
 
-                    <ul style="list-style-type: none;">
+                    <ul  id="AcULi">
                         <li>
                             <a href="../HTML/Student.html">
                                 <span class="list"> الطلاب </span>
@@ -93,6 +92,13 @@
                             <a href="../HTML/Classes.html">
                                 <span class="list"> الصفوف </span>
                                 <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Tabels.html" >
+                                <span class="list"> جدول </span>
+                                <span class="icon"><i class="fas fa-table"></i></span>
 
                             </a>
                         </li>
@@ -131,7 +137,7 @@
 
                             </a>
                         </li>
-                        <li style="padding-top: 125px;">
+                        <li id="AcLI">
                             <a href="#">
                                 <span class="list"> من نحن </span>
                                 <span class="icon"><i class="fas fa-users-cog"></i></span>
@@ -154,10 +160,10 @@
 
             <div class="container">
 
-                <div class="row" style="width:900px">
+                <div class="row" id="w900i">
 
                     <div class="col-4">
-                        <div class="text-right" style="text-align-last: right;">
+                        <div class="text-right" id="AcCON2">
                             <select id="select" class="col">
                                 <option> الصف </option>
                                 <option>Ahmed</option>
@@ -174,7 +180,7 @@
                     </div>
 
                     <div class="col-4">
-                        <div class="text-right" style="text-align-last: right;">
+                        <div class="text-right" id="AcCON2">
                             <select id="select" class="col">
                                 <option> ولي امر الطالب </option>
                                 <option>Ahmed</option>
@@ -191,7 +197,7 @@
                     </div>
 
                     <div class="col-3">
-                        <div class="text-right" style="text-align-last: right;">
+                        <div class="text-right" id="AcCON2">
                             <select id="select" class="col">
                                 <option> أسم الطالب </option>
                                 <option>Ahmed</option>
@@ -210,57 +216,66 @@
                 </div>
 
 
-                <div style="width: 875px;margin:10px 0px 0px 0px;">
-                    <input type="text" style="text-align: right;text-align-last: right" class="form-control"
+                <div id="w875m10-0-0-0px">
+                    <input type="text" id="taRtaR" class="form-control"
                         placeholder="المبلغ">
-                    <button type="button" class="btn btn-primary  btn-block" style="margin-top: 15px;"> حفظ </button>
+                    <button type="button" class="btn btn-primary btn-block"id="MT15px"> اضافة </button>
                 </div>
 
-                <div style="margin-right: 200px;margin-top: 135px;justify-content: center;">
-                    <table class="table">
+                <hr id="Hri">
+
+                <div id="w900i">
+                    <form class="form-inline my- my-lg-0 ;">
+                        <input class="form-control mr-sm-2" type="search" placeholder=" اسم الطالب " aria-label="Search" id="w785taRtalR">
+                        <button class="btn btn-primary " type="submit" id="w80px"> بحث </button>
+                    </form>
+                </div>
+
+                <div id="mR200mT15JCC">
+                    <table class="table" id="w875px">
                         <thead class="thead-light">
                             <tr>
 
-                                <th style="text-align: center" scope="col"> التحرير </th>
+                                <th id="taC" scope="col"> التحرير </th>
                                 <th scope="col"> المبلغ </th>
                                 <th scope="col"> الشعبه </th>
-                                <th scope="col"> الصف </th>
-                                <th style="text-align: right" scope="col"> أسم الطالب الثلاثي </th>
+                                <!-- <th scope="col"> الصف </th> -->
+                                <th id="taR" scope="col"> أسم الطالب الثلاثي </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr class="normal">
                                 <td>
-                                    <button type="submit" class="btn btn-danger">
+                                    <button type="submit" class="btn btn-danger btn-sm">
                                         حذف
                                     </button>
                                     <a href="./PayingEdit.html">
-                                        <button type="submit" class="btn btn-success">
+                                        <button type="submit" class="btn btn-success btn-sm">
                                             تعديل
                                         </button>
                                     </a>
                                 </td>
                                 <td> $600 </td>
-                                <td> أ </td>
+                                <!-- <td> أ </td> -->
                                 <td> الرابع </td>
-                                <td style="text-align: right"> سليمان  </td>
+                                <td id="taR"> سليمان  احمد موسى</td>
                             </tr>
                    
                             <tr class="normal">
                                 <td>
-                                    <button type="submit" class="btn btn-danger">
+                                    <button type="submit" class="btn btn-danger btn-sm">
                                         حذف
                                     </button>
                                     <a href="./PayingEdit.html">
-                                        <button type="submit" class="btn btn-success">
+                                        <button type="submit" class="btn btn-success btn-sm">
                                             تعديل
                                         </button>
                                     </a>
                                 </td>
                                 <td> $800 </td>
-                                <td> أ </td>
+                                <!-- <td> أ </td> -->
                                 <td> السادس </td>
-                                <td style="text-align: right"> قزويني </td>
+                                <td id="taR"> علي عقيل ابراهيم </td>
                             </tr>
                         </tbody>
                     </table>

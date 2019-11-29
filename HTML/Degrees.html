@@ -41,7 +41,7 @@
 
 				<div class="right_info">
 					<div class="icon_wrap">
-						<a href="../index.html" style="color: cornsilk">
+						<a href="../index.html" id="ACBG">
 							<div class="icon">
 								<span> الرئيسية </span>
 								<i class="fas fa-home"></i>
@@ -58,7 +58,7 @@
 			<div class="sidebar_menu">
 				<div class="inner__sidebar_menu">
 
-					<ul style="list-style-type: none;">
+					<ul id="AcULi">
 						<li>
 							<a href="Student.html">
 								<span class="list"> الطلاب </span>
@@ -90,6 +90,13 @@
 
 							</a>
 						</li>
+						<li>
+                            <a href="Tabels.html" >
+                                <span class="list"> جدول </span>
+                                <span class="icon"><i class="fas fa-table"></i></span>
+
+                            </a>
+                        </li>
 						<li>
 							<a href="Absences.html">
 								<span class="list"> الغيابات </span>
@@ -125,7 +132,7 @@
 
 							</a>
 						</li>
-						<li style="padding-top: 125px;">
+						<li id="AcLI">
 							<a href="#">
 								<span class="list"> من نحن </span>
 								<span class="icon"><i class="fas fa-users-cog"></i></span>
@@ -149,12 +156,12 @@
 			<div class="container">
 
 
-				<div class="row" style="width:900px;margin-top: 20px;">
+				<div class="row" id="D900px15px">
 
 					<div class="col-4">
-						<div class="text-right" style="text-align-last: right;">
+						<div class="text-right" id="AcCON2">
 							<select id="select" class="col">
-								<option> شعبه </option>
+								<option> الشعبه </option>
 								<option>Ahmed</option>
 								<option>Yousef</option>
 								<option>Ali</option>
@@ -168,9 +175,9 @@
 						</div>
 					</div>
 					<div class="col-4">
-						<div class="text-right" style="text-align-last: right;">
+						<div class="text-right" id="AcCON2">
 							<select id="select" class="col">
-								<option> صف </option>
+								<option> الصف </option>
 								<option>Ahmed</option>
 								<option>Yousef</option>
 								<option>Ali</option>
@@ -185,7 +192,7 @@
 					</div>
 
 					<div class="col-4">
-						<div class="text-right" style="text-align-last: right;">
+						<div class="text-right" id="AcCON2">
 							<select id="select" class="col">
 								<option> اسم الطالب </option>
 								<option>Ahmed</option>
@@ -202,13 +209,12 @@
 					</div>
 
 
-					<div style="width: 875px;margin-left: 15px;">
-						<div class="col" style="margin-top: 10px;">
+					<div  id="Dw875mL15px">
+						<div class="col"  id="C20px">
 
-							<div style="width: 900;">
+							<div id="Dw900px">
 								<input type="file" class="custom-file-input" id="customFile">
-								<label class="custom-file-label" for="customFile"
-									style="text-align-last: center;">النتيجة</label>
+								<label class="custom-file-label" for="customFile" id="Accustom-file-label">النتيجة</label>
 							</div>
 
 						</div>
@@ -219,17 +225,25 @@
 
 
 
-				<div style="margin-top: 10px;width: 180px;margin-left: 100px;">
-					<button type="button" class="btn btn-primary btn-lg btn-block"
-						style="margin-left: 250px;">ارسال</button>
+				<div id="DmR20w350mL270px">
+					<button type="button" class="btn btn-primary btn-block"
+					>ارسال</button>
 				</div>
 
+				<hr id="DHr" >
 
-				<div style="margin-top:10px;width: 875px;">
+				<div id="#Dw900px">
+					<form class="form-inline my- my-lg-0 ;">
+						<input class="form-control mr-sm-2" id="ATEin" type="search" placeholder=" اسم الطالب " aria-label="Search" >
+						<button class="btn btn-primary " id="Dw80px;" type="submit"> بحث </button>
+					</form>
+				</div>
+
+				<div id="mT15w875px" >
 
 					<dev class="item">
 
-						<table class="table" style="text-align-last: center;">
+						<table class="table" id="Accustom-file-label ">
 							<thead class="thead-light">
 								<tr>
 									<th>تحرير</th>
@@ -244,11 +258,11 @@
 
 								<tr>
 									<td>
-										<button type="submit" class="btn btn-danger">
+										<button type="submit" class="btn btn-danger btn-sm">
 											حذف
 										</button>
 										<a href="./DegreesEdit.html">
-											<button type="submit" class="btn btn-success">
+											<button type="submit" class="btn btn-success btn-sm">
 												تعديل
 											</button>
 										</a>
@@ -264,11 +278,11 @@
 								<tr>
 
 									<td>
-										<button type="submit" class="btn btn-danger">
+										<button type="submit" class="btn btn-danger btn-sm">
 											حذف
 										</button>
 										<a href="./DegreesEdit.html">
-											<button type="submit" class="btn btn-success">
+											<button type="submit" class="btn btn-success btn-sm">
 												تعديل
 											</button>
 										</a>

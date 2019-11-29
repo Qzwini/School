@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CodeIT Paying</title>
+    <title>CodeIT student-table</title>
     <link rel="stylesheet" href="../CSS/button-list.css">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -42,7 +42,7 @@
 
                 <div class="right_info">
                     <div class="icon_wrap">
-                        <a href="../index.html" style="color: cornsilk">
+                        <a href="../index.html" id="ACBG">
                             <div class="icon">
                                 <span> الرئيسية </span>
                                 <i class="fas fa-home"></i>
@@ -59,7 +59,7 @@
             <div class="sidebar_menu">
                 <div class="inner__sidebar_menu">
 
-                    <ul style="list-style-type: none;">
+                    <ul id="AcULi">
                         <li>
                             <a href="../HTML/Student.html" class="active">
                                 <span class="list"> الطلاب </span>
@@ -87,6 +87,13 @@
                             <a href="../HTML/Classes.html">
                                 <span class="list"> الصفوف </span>
                                 <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Tabels.html" >
+                                <span class="list"> جدول </span>
+                                <span class="icon"><i class="fas fa-table"></i></span>
 
                             </a>
                         </li>
@@ -125,7 +132,7 @@
 
                             </a>
                         </li>
-                        <li style="padding-top: 125px;">
+                        <li id="AcLI">
                             <a href="#">
                                 <span class="list"> من نحن </span>
                                 <span class="icon"><i class="fas fa-users-cog"></i></span>
@@ -147,11 +154,11 @@
             </div>
 
             <div class="container">
-                <div style="width: 850px;">
+                <div id="w850px" >
                     <!-- Tabs -->
-                    <ul class="nav nav-tabs" style="float: right;">
+                    <ul class="nav nav-tabs" id="fRight">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#"> جدول الطلاب </a>
+                            <a class="nav-link active" href="#">  الطلاب </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./Fathers.html"> تسجيل الاباء </a>
@@ -163,11 +170,19 @@
                     </ul>
 
                     <!-- Contant -->
-                    <div style="width: 850px;border: 1px solid white;margin-top: 20px;">
+                    
+                    <div id="w850b1mT15px">
 
-                        <div style="margin-top: 70px;">
+                        <div id="w900mT100px">
+                            <form class="form-inline my- my-lg-0 ;">
+                                <input class="form-control mr-sm-2" type="search" placeholder=" اسم طالب " aria-label="Search" id="w786taRtalR">
+                                <button class="btn btn-primary " type="submit"> بحث </button>
+                            </form>
+                        </div>
 
-                            <table class="table" style="text-align-last: center;border-radius: 5px !important;">
+                        <div id="MT15px">
+
+                            <table class="table" id="talCbR5px">
                                 <thead class="thead-light">
                                     <tr>
                                         <th scope="col"> التحرير </th>
@@ -181,11 +196,11 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <button type="submit" class="btn btn-danger">
+                                            <button type="submit" class="btn btn-danger btn-sm">
                                                 حذف
                                             </button>
                                             <a href="./Student-Edit.html">
-                                                <button type="submit" class="btn btn-success">
+                                                <button type="submit" class="btn btn-success btn-sm">
                                                     تعديل
                                                 </button>
                                             </a>
@@ -200,12 +215,12 @@
                                     <tr>
                                         <td>
 
-                                            <button type="submit" class="btn btn-danger">
+                                            <button type="submit" class="btn btn-danger btn-sm">
                                                 حذف
                                             </button>
 
                                             <a href="./Student-Edit.html">
-                                                <button type="submit" class="btn btn-success">
+                                                <button type="submit" class="btn btn-success btn-sm">
                                                     تعديل
                                                 </button>
                                             </a>
@@ -219,11 +234,11 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <button type="submit" class="btn btn-danger">
+                                            <button type="submit" class="btn btn-danger btn-sm">
                                                 حذف
                                             </button>
                                             <a href="./Student-Edit.html">
-                                                <button type="submit" class="btn btn-success">
+                                                <button type="submit" class="btn btn-success btn-sm">
                                                     تعديل
                                                 </button>
                                             </a>
@@ -238,10 +253,7 @@
                                 </tbody>
                             </table>
 
-                            <div style="margin-top: 55px;width: 180px;margin-left: 100px;">
-                                <button type="button" class="btn btn-primary btn-lg btn-block"
-                                    style="margin-left: 250px;">ارسال</button>
-                            </div>
+                     
                         </div>
                     </div>
 

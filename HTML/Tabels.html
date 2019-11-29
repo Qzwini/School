@@ -3,20 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CodeIT book</title>
+    <title>CodeIT Tabels</title>
+    <link rel="stylesheet" href="../CSS/button-list.css">
     <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/tail.select-default.min.css">
+    <style>
+        .tail-select {
+            width: 350px;
+            height: 50px;
+        }
+
+    </style>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../JS/javaScript.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </head>
 
 <body>
 
     <div class="wrapper">
 
-        <div class="top_navbar" id="zind">
+        <div class="top_navbar">
             <div class="logo">
                 <a href="#">
 
@@ -54,12 +64,12 @@
 
         <div class="main_body">
 
-            <div class="sidebar_menu" id="zind">
+            <div class="sidebar_menu">
                 <div class="inner__sidebar_menu">
 
                     <ul id="AcULi">
                         <li>
-                            <a href="Student.html">
+                            <a href="../HTML/Student.html">
                                 <span class="list"> الطلاب </span>
                                 <span class="icon">
                                     <i class="far fa-id-card"></i></span>
@@ -89,12 +99,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="Tabels.html"  >
+                            <a href="Tabels.html" class="active">
                                 <span class="list"> جدول </span>
                                 <span class="icon"><i class="fas fa-table"></i></span>
 
                             </a>
                         </li>
+     
                         <li>
                             <a href="Absences.html">
                                 <span class="list"> الغيابات </span>
@@ -103,7 +114,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="library.html" class="active">
+                            <a href="library.html">
                                 <span class="list"> المكتبة </span>
                                 <span class="icon"><i class="fas fa-book"></i></span>
 
@@ -152,64 +163,115 @@
             </div>
 
             <div class="container">
-                <div id="ASDiv">
+                <!-- Search -->
+                <div class="row" id="w900mT15px">
+
+                    <div class="col-2">
+                        <button class="btn btn-primary"  id="w150px"> أضافة </button>
+                    </div>
 
 
-
-                    <form class="form-inline my- my-lg-0 ;">
-                        <div >
-                            <a href="./library.html">
-                                <button type="button" class="btn btn-primary">رجوع</button> </a>
-
-                            <input class="form-control mr-sm-2" type="search" placeholder=" اسم الكتاب " id="ASNAM">
-                            <button class="btn btn-primary " type="submit"> بحث </button>
-                        </div>
-
-                    </form>
-
-                </div>
-
-
-                <!-- Card Book -->
-
-                <div class="cardShow">
-                    <div class="card mb-3" id="ASCArd">
-                        <div class="row no-gutters">
-                            <div class="col-md-8">
-                                <div class="card-body" id="AcEnwan">
-                                    <h5 class="card-title">اسم الكتاب</h5>
-                                    <h6 class="card-title">اسم الاستاذ</h6>
-                                    <p class="card-text">
-                                        يجب بدء المقدمة بالتعريف عن الكتاب بشكل عام، ولكن ليس بشكل واسع جداً، بحيث
-                                        يجب
-                                        على المقدمة أن تظهر للقارئ ما يجب توقعه عند قراءة الكتاب، وليس شرح تفصيلي
-                                        لكل
-                                        جزء من الكتاب، لذلك يمكن بدء الكتابة بشكل واسع وعام ومن ثم تضييق النطاق
-                                        قليلاً
-                                    </p>
-                                    <div id="AS8PX">
-                                        <a href="#" class="btn btn-danger btn-sm" id="AS16PX"> حذف
-                                        </a>
-                                        <a href="./bookEdit.html" class="btn btn-success btn-sm"> تعديل </a>
-                                    </div>
+                    <div class="col-5">
+                        <div class="text-right" id="talR">
+                            <div class="col" id="talLw350">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile">
+                                    <label class="custom-file-label" for="customFile" id="talC">صور</label>
                                 </div>
                             </div>
-                            <div class="col-md-4" id="AS50px">
-                                <img src="./images.png" class="card-img" alt="...">
-                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="text-right" id="talR">
+                            <select id="select" class="col">
+                                <option> الصف </option>
+                                <option>Ahmed</option>
+                                <option>Yousef</option>
+                                <option>Ali</option>
+                                <option>Muhamed</option>
+                                <option>Muhanned</option>
+                                <option>Sumo</option>
+                                <option>Salwa</option>
+                                <option>Faesel</option>
+                                <option>Muhamed</option>
+                            </select>
                         </div>
                     </div>
                 </div>
 
+              
+                <!-- Table -->
+                <hr id="Hri">
+
+                <div id="w900i">
+                    <form class="form-inline my- my-lg-0 ;">
+                        <input class="form-control mr-sm-2" type="search" placeholder=" الصف " aria-label="Search" id="w785taRtalR">
+                        <button class="btn btn-primary " type="submit" id="w80px"> بحث </button>
+                    </form>
+                </div>
+
+                <div id="mT15w875px">
+
+                    <table class="table" id="talCbR5px">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col"> التحرير </th>
+                                <th scope="col"> صورة الجدول </th>
+                                <!-- <th scope="col"> الشعبه </th> -->
+                                <th scope="col"> الصف </th>
+                                <th scope="col"> # </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button type="submit" class="btn btn-danger btn-sm" id="mR20px" >
+                                        حذف
+                                    </button>
+
+                                </td>
+                                <td> <a href="#">Download</a> </td>
+                                <!-- <td> أ </td> -->
+                                <td>  الاول أ </td>
+                                <th scope="row">1</th>
+
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <button type="submit" class="btn btn-danger btn-sm" id="mR20px">
+                                        حذف
+                                    </button>
+
+                                </td>
+                                <td> <a href="#">Download</a> </td>
+                                <!-- <td> ج </td> -->
+                                <td> الثالث ج</td>
+                                <th scope="row">3</th>
+
+                            </tr>
+                        </tbody>
+                    </table>
 
 
-
-
+                </div>
             </div>
         </div>
     </div>
 
 
+    <!-- JQuery and bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
+    <script src="../JS/tail.select-full.min.js"></script>
+    <script>
+        tail.select('#select', {
+            search: true
+        })
+
+    </script>
 </body>
 
 </html>

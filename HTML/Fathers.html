@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CodeIT Studint</title>
+    <title>CodeIT Fathers</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -41,7 +41,7 @@
 
                 <div class="right_info">
                     <div class="icon_wrap">
-                        <a href="../index.html" style="color: cornsilk">
+                        <a href="../index.html" id="ACBG">
                             <div class="icon">
                                 <span> الرئيسية </span>
                                 <i class="fas fa-home"></i>
@@ -58,7 +58,7 @@
             <div class="sidebar_menu">
                 <div class="inner__sidebar_menu">
 
-                    <ul style="list-style-type: none;">
+                    <ul id="AcULi">
                         <li>
                             <a href="../HTML/Student.html" class="active">
                                 <span class="list"> الطلاب </span>
@@ -88,6 +88,13 @@
                             <a href="../HTML/Classes.html">
                                 <span class="list"> الصفوف </span>
                                 <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Tabels.html">
+                                <span class="list"> جدول </span>
+                                <span class="icon"><i class="fas fa-table"></i></span>
 
                             </a>
                         </li>
@@ -126,7 +133,7 @@
 
                             </a>
                         </li>
-                        <li style="padding-top: 125px;">
+                        <li id="AcLI">
                             <a href="#">
                                 <span class="list"> من نحن </span>
                                 <span class="icon"><i class="fas fa-users-cog"></i></span>
@@ -148,10 +155,10 @@
             </div>
 
             <div class="container">
-                <div style="width: 850px;">
-                    <ul class="nav nav-tabs" style="float: right;">
+                <div id="w850px">
+                    <ul class="nav nav-tabs" id="fRight">
                         <li class="nav-item">
-                            <a class="nav-link" href="./student-table.html"> جدول الطلاب </a>
+                            <a class="nav-link" href="./student-table.html"> الطلاب </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./Fathers.html"> تسجيل الاباء </a>
@@ -162,32 +169,29 @@
 
                     </ul>
 
-                    <div style="width: 850px;border: 1px solid white;margin-top: 20px;">
+                    <div id="w850b1mT15px">
 
-                        <div style="margin-top: 70px;">
+                        <div id="AbTDiv">
                             <form>
-                                <div class="row" style="text-align-last: right;margin-top: 20px;">
+                                <div class="row" id="talRightmT15px">
                                     <div class="col">
-                                        <input type="text" class="form-control"
-                                            style="text-align: right;text-align-last: center;"
+                                        <input type="text" class="form-control" id="taRighttalCevter"
                                             placeholder="اسم ولي الامر">
                                     </div>
                                 </div>
                             </form>
 
-                            <div class="row" style="margin-top: 20px;width: 862px;padding-left: 20px ;">
+                            <div class="row" id="mT15w862pL20px">
 
-                                <div class="custom-file col-6" >
-                                    <label class="custom-file-label" style="text-align-last: center; margin-right: 20px;"
-                                        for="customFile">صور الجنسية
+                                <div class="custom-file col-6">
+                                    <label class="custom-file-label" id="talLmR15px" for="customFile">صور الجنسية
                                         الامامية
                                     </label>
-                                    <input type="file" class="custom-file-input" id="customFile" >
+                                    <input type="file" class="custom-file-input" id="customFile">
                                 </div>
 
                                 <div class="custom-file col-6">
-                                    <label class="custom-file-label" style="text-align-last: center;"
-                                        for="customFile">صور الجنسية
+                                    <label class="custom-file-label" id="talCenter" for="customFile">صور الجنسية
                                         الخلفية
                                     </label>
                                     <input type="file" class="custom-file-input" id="customFile">
@@ -195,17 +199,15 @@
 
                             </div>
 
-                            <div class="custom-file" style="margin-top: 15px;">
-                                <input type="file" class="custom-file-input" style="text-align-last: center;"
+                            <div class="custom-file" id="MT15px">
+                                <input type="file" class="custom-file-input" id="talCenter"
                                     id="customFile" dir="rtl" placeholder="صور" title="صور">
-                                <label class="custom-file-label" style="text-align-last: center;" for="customFile"> صور
+                                <label class="custom-file-label" id="talCenter" for="customFile"> صور
                                     الشخصيه</label>
                             </div>
 
 
-                            <button type="button" class="btn btn-primary"
-                                style="margin-top: 20px;justify-content: center;float: right;margin-right: 255px; width: 350px;">
-                                تسجيل </button>
+                            <button type="button" class="btn btn-primary" id="mT15jCCmr255w350px"> تسجيل </button>
 
 
 
@@ -223,13 +225,13 @@
     <!-- JQuery and bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+    </script>
 
 
 

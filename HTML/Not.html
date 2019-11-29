@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CodeIT Notification</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/Not.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../JS/javaScript.js"></script>
@@ -41,7 +41,7 @@
 
                 <div class="right_info">
                     <div class="icon_wrap">
-                        <a href="../index.html" style="color: cornsilk">
+                        <a href="../index.html" class="icon-home">
                             <div class="icon">
                                 <span> الرئيسية </span>
                                 <i class="fas fa-home"></i>
@@ -58,7 +58,7 @@
             <div class="sidebar_menu">
                 <div class="inner__sidebar_menu">
 
-                    <ul style="list-style-type: none;">
+                    <ul>
                         <li>
                             <a href="Student.html">
                                 <span class="list"> الطلاب </span>
@@ -86,6 +86,13 @@
                             <a href="Classes.html">
                                 <span class="list"> الصفوف </span>
                                 <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Tabels.html ">
+                                <span class="list"> جدول </span>
+                                <span class="icon"><i class="fas fa-table"></i></span>
 
                             </a>
                         </li>
@@ -124,7 +131,7 @@
 
                             </a>
                         </li>
-                        <li style="padding-top: 125px;">
+                        <li style="padding-top: 75px;">
                             <a href="#">
                                 <span class="list"> من نحن </span>
                                 <span class="icon"><i class="fas fa-users-cog"></i></span>
@@ -147,28 +154,27 @@
 
             <div class="container">
 
-                <div style="margin-top:75px;width: 700px !important;">
-                    <div style="text-align-last: right; ">
+                <div class="ConDiv1">
+                    <div class="ConDiv2">
 
                         <form>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Link" style="text-align: left;text-align-last: left;">
+                                    <input type="text" class="form-control t1" placeholder="Link " id="taLtalL" >
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="عنوان الاشعار"style="text-align: right;">
+                                    <input type="text" class="form-control" placeholder="عنوان الاشعار" id="taR">
                                 </div>
                             </div>
                         </form>
 
-                        <input class="form-control form-control-lg" type="text" placeholder="الموضوع"
-                            style="margin-top: 10px;text-align: right;">
+                        <input class="form-control form-control-lg" type="text" placeholder="الموضوع" id="mT15taR">
                     </div>
-                    
 
-                    <div style="margin-top: 25px;width: 180px;">
-                        <button type="button" class="btn btn-primary btn-lg btn-block"
-                            style="margin-left: 250px;">ارسال</button>
+
+                    <div id="mT15w350mL175px">
+                        <button type="button" class="btn btn-primary  btn-block"
+                            >ارسال</button>
                     </div>
 
 

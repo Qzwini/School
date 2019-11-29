@@ -1,0 +1,38 @@
+td,
+th {
+    text-align: center;
+}
+
+.editTable {
+    width: 150px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.searchControl {
+    width: 500px;
+    float: left;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: right;
+    text-align-last: right";
+
+}
+
+.numberFields,
+.numberFields-1,
+.numberFields-2 {
+    border: none;
+    text-align: center;
+    width: 50px;
+}
+
+.numberFields {
+    background-color: crimson;
+    color: white;
+}
+
+.numberFields-1 {
+    background-color: #F8C34A;
+}
